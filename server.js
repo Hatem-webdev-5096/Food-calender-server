@@ -8,7 +8,7 @@ const getData = require("./helper");
 const app = express();
 
 const corsOptions = {
-  origin:"https://food-calender-front.onrender.com/",
+  origin:"https://food-calender-front.onrender.com",
   optionsSuccessStatus: 200,
   methods: 'GET,POST,PUT,PATCH,DELETE',
   credentials: true,
