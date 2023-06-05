@@ -9,6 +9,7 @@ const app = express();
 
 const corsOptions = {
   origin:"https://food-calender-front.onrender.com",
+  // origin: "http://localhost:3000",
   optionsSuccessStatus: 200,
   methods: 'GET,POST,PUT,PATCH,DELETE',
   credentials: true,
@@ -23,7 +24,7 @@ app.use(bodyParser.json());
 app.get("/getData", async(req,res) => {
    const data = await getData.getbreakFast();
    console.log(data);
-   res.json({breakfast:data.breakfast, lunch:data.lunch});
+   res.json({breakfast:data.breakfast, lunch:data.lunch, timeTable: data.timeTable});
 
 })
 
