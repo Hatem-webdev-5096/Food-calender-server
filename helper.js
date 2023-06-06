@@ -56,7 +56,7 @@ exports.getbreakFast =  async()  => {
 
   const timeTableRequest = {
     // The ID of the spreadsheet to retrieve data from.
-    spreadsheetId: '1wuN8DRM6WJG9QDbblFnZRRRXVHO83vcgs1ANVmwbcOs',  // TODO: Update placeholder value.
+    spreadsheetId: '1nL5CbyIGH6AAuR_DRhuEmhWkZLOUcyLekw7BXu60Qfw',  // TODO: Update placeholder value.
 
     // The A1 notation of the values to retrieve.
     range: 'Time Table',  // TODO: Update placeholder value.
