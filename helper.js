@@ -12,7 +12,7 @@ exports.getbreakFast =  async()  => {
   const authClient = await authorize();
   const breakfastRequest = {
     // The ID of the spreadsheet to retrieve data from.
-    spreadsheetId: '1wuN8DRM6WJG9QDbblFnZRRRXVHO83vcgs1ANVmwbcOs',  // TODO: Update placeholder value.
+    spreadsheetId: '1nL5CbyIGH6AAuR_DRhuEmhWkZLOUcyLekw7BXu60Qfw',  // TODO: Update placeholder value.
 
     // The A1 notation of the values to retrieve.
     range: 'breakfast',  // TODO: Update placeholder value.
@@ -34,7 +34,7 @@ exports.getbreakFast =  async()  => {
 
   const lunchRequest = {
     // The ID of the spreadsheet to retrieve data from.
-    spreadsheetId: '1wuN8DRM6WJG9QDbblFnZRRRXVHO83vcgs1ANVmwbcOs',  // TODO: Update placeholder value.
+    spreadsheetId: '1nL5CbyIGH6AAuR_DRhuEmhWkZLOUcyLekw7BXu60Qfw',  // TODO: Update placeholder value.
 
     // The A1 notation of the values to retrieve.
     range: 'Lunch',  // TODO: Update placeholder value.
